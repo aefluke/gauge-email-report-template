@@ -1,0 +1,961 @@
+{
+	"projectName": "test",
+	"timestamp": "Feb 1, 2021 at 1:25am",
+	"successRate": 0,
+	"environment": "default",
+	"tags": "",
+	"executionTime": 322904,
+	"executionStatus": "failed",
+	"specResults": [
+		{
+			"specHeading": "AVANSAS LOGIN SENARYOSU",
+			"fileName": "/test/specs/AND/Login.spec",
+			"tags": [],
+			"executionTime": 322673,
+			"executionStatus": "failed",
+			"scenarios": [
+				{
+					"scenarioHeading": "Giris Yap",
+					"tags": [
+						"Giris_Yap_AND"
+					],
+					"executionTime": 159027,
+					"executionStatus": "failed",
+					"contexts": [
+						{
+							"itemType": "step",
+							"stepText": "\"AND\" ortaminda calistir",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "AND",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Testi baslat",
+							"parameters": [],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 16302,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						}
+					],
+					"teardowns": [],
+					"items": [
+						{
+							"itemType": "step",
+							"stepText": "\"/login\" adresine git",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "/login",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 60033,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"5\" saniye bekle",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "5",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 5001,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"CEREZ POPUP KAPAT\" objesi varsa tikla",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "CEREZ POPUP KAPAT",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 60031,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"LOGIN EMAIL\" alanina JS ile \"testotomasyon1@avansas.com\" yaz",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "LOGIN EMAIL",
+									"table": null
+								},
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "testotomasyon1@avansas.com",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "failed",
+								"stackTrace": "java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\njava.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\njava.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\njava.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\norg.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\norg.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\norg.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\norg.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\norg.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\norg.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\norg.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\norg.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\navansas.core.operation.WaitOperation.waitPresence(WaitOperation.java:31)\navansas.core.operation.SendKeyOperation.sendKeyWithJavaScript(SendKeyOperation.java:44)\navansas.core.implementation.StepImplementation.sendKeyWithJavaScript(StepImplementation.java:71)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:566)\ncom.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:28)\ncom.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66)\ncom.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59)\ncom.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41)\ncom.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14)\ncom.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33)\ncom.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19)\ncom.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44)\ncom.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166)\njava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\njava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\njava.base/java.lang.Thread.run(Thread.java:834)\n",
+								"screenshot": "",
+								"errorMessage": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#j_username\"}\n  (Session info: chrome=69.0.3497.100)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17763 x86_64)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'HYBRISPPJEN61', ip: '172.23.61.61', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-185-generic', java.version: '11.0.9.1'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {adbExecTimeout: 120000, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, databaseEnabled: false, desired: {adbExecTimeout: 120000, browserName: Chrome, deviceName: Nexus S API 27, goog:chromeOptions: {args: [--no-sandbox, --lang=tr, --disable-dev-shm-usage, --disable-notifications, --disable-features=TranslateUI], extensions: [], w3c: false}, platformName: android, platformVersion: 8.1, resetKeyboard: true, skipUnlock: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 240, deviceScreenSize: 480x800, deviceUDID: emulator-5554, goog:chromeOptions: {args: [--no-sandbox, --lang=tr, --disable-dev-shm-usage, --disable-notifications, --disable-features=TranslateUI], extensions: [], w3c: false}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 1.5, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, resetKeyboard: true, skipUnlock: true, statBarHeight: 36, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 764, left: 0, top: 36, width: 480}, warnings: {}, webStorageEnabled: false}\nSession ID: 7c6f902f-2fb5-4977-b02d-60b7acf24b7f\n*** Element info: {Using=css selector, value=#j_username}",
+								"executionTime": 14280,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": "screenshot-a8289aab-f8b1-40fa-972d-c43a39e388fc.png"
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"LOGIN PASSWORD\" alanina JS ile \"TesterYou2020\" yaz",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "LOGIN PASSWORD",
+									"table": null
+								},
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "TesterYou2020",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"1\" saniye bekle",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"LOGIN SUBMIT\" objesine tikla",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "LOGIN SUBMIT",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Ekran goruntusu kaydet",
+							"parameters": [],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"30\" saniye bekle",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "30",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Ekran goruntusu kaydet",
+							"parameters": [],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						}
+					],
+					"beforeScenarioHookFailure": null,
+					"afterScenarioHookFailure": null,
+					"skipErrors": [],
+					"tableRowIndex": -1
+				},
+				{
+					"scenarioHeading": "Kayit Ol",
+					"tags": [
+						"Kayit_Ol_AND"
+					],
+					"executionTime": 163646,
+					"executionStatus": "failed",
+					"contexts": [
+						{
+							"itemType": "step",
+							"stepText": "\"AND\" ortaminda calistir",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "AND",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Testi baslat",
+							"parameters": [],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 21447,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						}
+					],
+					"teardowns": [],
+					"items": [
+						{
+							"itemType": "step",
+							"stepText": "\"/registerb2c\" adresine git",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "/registerb2c",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 60019,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"5\" saniye bekle",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "5",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 5001,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"CEREZ POPUP KAPAT\" objesi varsa tikla",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "CEREZ POPUP KAPAT",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 60021,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"KAYIT OL -\u003e UYELIK TURU SEC\" objesine SE ile tikla",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "KAYIT OL -\u003e UYELIK TURU SEC",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "failed",
+								"stackTrace": "java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\njava.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\njava.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\njava.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\norg.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\norg.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\norg.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\norg.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\norg.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\norg.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\norg.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\norg.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\navansas.core.implementation.StepImplementation.clickWithSelenium(StepImplementation.java:98)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:566)\ncom.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:28)\ncom.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66)\ncom.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59)\ncom.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41)\ncom.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14)\ncom.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33)\ncom.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19)\ncom.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44)\ncom.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166)\njava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\njava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\njava.base/java.lang.Thread.run(Thread.java:834)\n",
+								"screenshot": "",
+								"errorMessage": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#membershipType\"}\n  (Session info: chrome=69.0.3497.100)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17763 x86_64)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'HYBRISPPJEN61', ip: '172.23.61.61', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-185-generic', java.version: '11.0.9.1'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {adbExecTimeout: 120000, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, databaseEnabled: false, desired: {adbExecTimeout: 120000, browserName: Chrome, deviceName: Nexus S API 27, goog:chromeOptions: {args: [--no-sandbox, --lang=tr, --disable-dev-shm-usage, --disable-notifications, --disable-features=TranslateUI], extensions: [], w3c: false}, platformName: android, platformVersion: 8.1, resetKeyboard: true, skipUnlock: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 240, deviceScreenSize: 480x800, deviceUDID: emulator-5554, goog:chromeOptions: {args: [--no-sandbox, --lang=tr, --disable-dev-shm-usage, --disable-notifications, --disable-features=TranslateUI], extensions: [], w3c: false}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 1.5, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, resetKeyboard: true, skipUnlock: true, statBarHeight: 36, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 764, left: 0, top: 36, width: 480}, warnings: {}, webStorageEnabled: false}\nSession ID: ef4005e8-b48e-4103-8759-b21ce775ef89\n*** Element info: {Using=css selector, value=#membershipType}",
+								"executionTime": 14336,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": "screenshot-19eee902-741b-457d-a8a9-e014d6164e5b.png"
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"1\" saniye bekle",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"KAYIT OL -\u003e UYELIK TURU -\u003e BIREYSEL MUSTERI\" objesine SE ile tikla",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "KAYIT OL -\u003e UYELIK TURU -\u003e BIREYSEL MUSTERI",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"1\" saniye bekle",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"KAYIT OL -\u003e AD\" alanina \"Test\" yaz",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "KAYIT OL -\u003e AD",
+									"table": null
+								},
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Test",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"KAYIT OL -\u003e SOYAD\" alanina \"Otomasyon\" yaz",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "KAYIT OL -\u003e SOYAD",
+									"table": null
+								},
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "Otomasyon",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"KAYIT OL -\u003e CEP\" objesine SE ile tikla",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "KAYIT OL -\u003e CEP",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"KAYIT OL -\u003e CEP\" alanina kayitli olan telefon numarasini yaz",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "KAYIT OL -\u003e CEP",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"KAYIT OL -\u003e EMAIL\" alanina kayitli olan emaili yaz",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "KAYIT OL -\u003e EMAIL",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"KAYIT OL -\u003e SIFRE\" alanina kayitli olan sifreyi yaz",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "KAYIT OL -\u003e SIFRE",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"KAYIT OL -\u003e KVKK\" objesine tikla",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "KAYIT OL -\u003e KVKK",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"1\" saniye bekle",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"KAYIT OL -\u003e KVKK KAPAT\" objesine tikla",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "KAYIT OL -\u003e KVKK KAPAT",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"1\" saniye bekle",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "1",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Ekran goruntusu kaydet",
+							"parameters": [],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"KAYIT OL -\u003e BUTON\" objesine tikla",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "KAYIT OL -\u003e BUTON",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "\"10\" saniye bekle",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "10",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Ekran goruntusu kaydet",
+							"parameters": [],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "not executed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 0,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						}
+					],
+					"beforeScenarioHookFailure": null,
+					"afterScenarioHookFailure": null,
+					"skipErrors": [],
+					"tableRowIndex": -1
+				}
+			],
+			"isTableDriven": false,
+			"datatable": null,
+			"beforeSpecHookFailure": null,
+			"afterSpecHookFailure": null,
+			"passedScenarioCount": 0,
+			"failedScenarioCount": 2,
+			"skippedScenarioCount": 0
+		}
+	],
+	"beforeSuiteHookFailure": null,
+	"afterSuiteHookFailure": null,
+	"passedSpecsCount": 0,
+	"failedSpecsCount": 1,
+	"skippedSpecsCount": 0,
+	"passedScenariosCount": 0,
+	"failedScenariosCount": 2,
+	"skippedScenariosCount": 0
+}
